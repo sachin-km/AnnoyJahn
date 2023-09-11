@@ -6,20 +6,33 @@
   <style>
     .red-circle{
       background-color: blueviolet;
-      height: 100px;
-      width : 100px;
+      height: 200px;
+      width : 200px;
       border-radius: 50%;
       position: absolute;
-      top: 200px;
-      left: 200px;
+      top: 150px;
+      left: 250px;
     }
     .blue-box{
       background-color: red;
-      height: 100px;
-      width : 200px;
+      height: 300px;
+      width : 500px;
+
       position: relative;
       top: 200px;
       left: 200px;
+    }
+    .word{
+      z-index: 100;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+
+    }
+    .box{
+      background-color :aquamarine;
+      height :50px ;
+      width :50px ;
     }
 
 
@@ -28,7 +41,11 @@
 
 <body>
   <div class="blue-box">
+    <h1 class="word">Asymmetry to <br>
+    Annoy Jahn</h1>
     <div class="red-circle">
+    <div class="box">
+    </div>
     </div>
   </div>
 
